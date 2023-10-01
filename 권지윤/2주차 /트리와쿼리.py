@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-sys.setrecursionlimit(10**9) # 이거 없으면 메모리 초과, 있으면 50퍼까지 갔다가 런타임 에러
+sys.setrecursionlimit(10**9) # 이거 없으면 메모리 초과, 있으면 50퍼까지 갔다가 런타임 에러 -> Pypy는 적용 안됨
 
 N, R, Q = map(int, input().split())
 tree = [[] for _ in range(N+1)]
